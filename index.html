@@ -4,7 +4,17 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
+    <title>Forty w Toruniu</title>
+
+    <script>
+    (function () {
+      const redirect = sessionStorage.redirect;
+      delete sessionStorage.redirect;
+      if (redirect && redirect !== location.href) {
+        history.replaceState(null, null, redirect);
+      }
+    })();
+  </script>
     <script type="module" crossorigin src="/forty-w-toruniu/assets/index-lNuCSg_I.js"></script>
     <link rel="stylesheet" crossorigin href="/forty-w-toruniu/assets/index-DEK1Id3D.css">
   </head>
