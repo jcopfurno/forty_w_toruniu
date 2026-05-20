@@ -3,8 +3,8 @@ function Footer() {
         <footer>
             <div>
                 <h1> Wykonanie </h1>
-                <p> Wykonawcą oryginalnej strony jest Grzegorz Meller a odnowionej Jakub Bobiński</p>
-                <p> Pomysłodawcami stron i autorami tekstów są Jakub oraz Piotr Olińscy</p>
+                <p> Wykonawcą oryginalnej strony jest Grzegorz Meller, a odnowionej Jakub Bobiński.</p>
+                <p> Pomysłodawcami stron i autorami tekstów są Jakub oraz Piotr Olińscy.</p>
                 <p> <a href = "http://fortytorun.azurewebsites.net">Link do oryginalnej strony </a> </p>
             </div>
 
