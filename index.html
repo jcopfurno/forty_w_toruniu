@@ -10,13 +10,17 @@
     (function () {
       const redirect = sessionStorage.redirect;
       delete sessionStorage.redirect;
+
+      // If there's nothing in sessionStorage then we aren't coming from a 404 page, so do nothing
+      // if the URL in sessionStorage is the same as the current URL then we have already redirected, so do nothing
       if (redirect && redirect !== location.href) {
+        // Rewrites the URL in the address bar
         history.replaceState(null, null, redirect);
       }
     })();
   </script>
-    <script type="module" crossorigin src="/forty-w-toruniu/assets/index-lNuCSg_I.js"></script>
-    <link rel="stylesheet" crossorigin href="/forty-w-toruniu/assets/index-DEK1Id3D.css">
+    <script type="module" crossorigin src="/forty_w_toruniu/assets/index-DrW9nG0Q.js"></script>
+    <link rel="stylesheet" crossorigin href="/forty_w_toruniu/assets/index-CDiTpgdS.css">
   </head>
   <body>
     <div id="root"></div>
