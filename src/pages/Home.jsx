@@ -1,7 +1,7 @@
 function Home() {
     return (
         <>
-        <div>
+        <div className="home-container">
             <h1 className="h1Text">Historia</h1>
             <p className="pText">
                 Historia pruskiej Twierdzy Toruń zaczyna się w roku 1815, kiedy to na mocy postanowień Kongresu Wiedeńskiego miasto to staje się częścią Królestwa Prus. Zaraz po przejęciu miasta Prusacy przystąpili do prac fortyfikacyjnych. 

@@ -1,0 +1,23 @@
+.dropdown-button {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+    padding-right: 0.25rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    cursor: pointer;
+    color: black;
+}
+
+.dropdown-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
+}
+
+.dropdown-button:hover {
+    background-color: rgb(240, 249, 255);
+}
