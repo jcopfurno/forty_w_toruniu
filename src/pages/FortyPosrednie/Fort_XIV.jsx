@@ -7,6 +7,8 @@ function Fort_XIV () {
     return (
         <>
             <div className="fortContainer">
+                <div className="sidebar"></div>
+                <div className="content">
                 <div className="heroSection">
                     <div className="heroImageContainer">
                         <img src={fortImage1}></img>
@@ -14,7 +16,7 @@ function Fort_XIV () {
 
                     <div className="heroTextContainer">
                         <h1 className="h1Text"> Fort XIV "Józef Bem" </h1>
-                        <p> Lata budowy: 1889-1893 </p>
+                        <p className="pHeroText"> Lata budowy: 1889-1893 </p>
                     </div>
                 </div>
 
@@ -26,6 +28,8 @@ function Fort_XIV () {
                     <img src={fortImage4}></img>
                 </div>
             </div>
+            <div className="sidebar"></div>
+        </div>
         </>
     )
 }

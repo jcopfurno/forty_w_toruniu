@@ -10,7 +10,7 @@
     color: black;
     border: none;
 
-    font-family: inherit;
+    font-family: "Saira Stencil", system-ui;
     font-size: inherit;
 }
 
@@ -23,12 +23,13 @@
 }
 
 header{
-    background-color: lightblue;
-    padding: 1vh 2vh;
     display: flex;
     justify-content: space-between; 
     align-items: center;
     height: 50px;
-    padding-left: 5vw;
-    padding-right: 5vw;
+
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 9vw;
+    padding-right: 9vw;
 }

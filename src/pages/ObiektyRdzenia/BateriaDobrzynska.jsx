@@ -7,14 +7,16 @@ function BateriaDobrzynska () {
     return (
         <>
             <div className="fortContainer">
-                <div className="heroSection">
+                <div className="sidebar"></div>
+                <div className="content">
+                <div className="heroSection">   
                     <div className="heroImageContainer">
                         <img src={fortImage1}></img>
                     </div>
 
                     <div className="heroTextContainer">
                         <h1 className="h1Text"> Bateria Dobrzyńska </h1>
-                        <p> Lata budowy: 1889-1892 </p>
+                        <p className="pHeroText"> Lata budowy: 1889-1892 </p>
                     </div>
                 </div>
 
@@ -25,6 +27,8 @@ function BateriaDobrzynska () {
                     <img src={fortImage3}></img>
                     <img src={fortImage4}></img>
                 </div>
+                </div>
+                <div className="sidebar"></div>
             </div>
         </>
     )

@@ -6,6 +6,8 @@ function MagazynProwiantowy () {
     return (
         <>
             <div className="fortContainer">
+                <div className="sidebar"></div>
+                <div className="content">
                 <div className="heroSection">
                     <div className="heroImageContainer">
                         <img src={fortImage1}></img>
@@ -13,7 +15,7 @@ function MagazynProwiantowy () {
 
                     <div className="heroTextContainer">
                         <h1 className="h1Text"> Magazyn Prowiantowy </h1>
-                        <p> Lata budowy: 1887-1892 </p>
+                        <p className="pHeroText"> Lata budowy: 1887-1892 </p>
                     </div>
                 </div>
 
@@ -24,6 +26,8 @@ function MagazynProwiantowy () {
                     <img src={fortImage3}></img>
                 </div>
             </div>
+            <div className="sidebar"></div>
+        </div>
         </>
     )
 }

@@ -5,6 +5,8 @@ function BramaKolejowa () {
     return (
         <>
             <div className="fortContainer">
+                <div className="sidebar"></div>
+                <div className="content">
                 <div className="heroSection">
                     <div className="heroImageContainer">
                         <img src={fortImage1}></img>
@@ -12,7 +14,7 @@ function BramaKolejowa () {
 
                     <div className="heroTextContainer">
                         <h1 className="h1Text"> Brama Kolejowa </h1>
-                        <p> Lata budowy: 1884-1886 </p>
+                        <p className="pHeroText"> Lata budowy: 1884-1886 </p>
                     </div>
                 </div>
 
@@ -22,6 +24,8 @@ function BramaKolejowa () {
                     <img src={fortImage2}></img>
                 </div>
             </div>
+            <div className="sidebar"></div>
+        </div>
         </>
     )
 }

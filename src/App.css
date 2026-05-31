@@ -1,4 +1,9 @@
 body {
+    background-image: url(./images/bricks.jpg);
+    background-size: 100% auto;
+    background-repeat: repeat-y;
+    background-position: top center;
+
     min-height: 100vh;
     margin: 0;
     display:grid;
@@ -7,25 +12,48 @@ body {
 
 footer{
     /*background-color:rgb(32,32,32);*/
-    background-color:rgb(32, 39, 43);
+    background-color:#2B1b15;
     color: lightgray;
-    padding: 3vh 5vw; 
-    margin-top: 3vh;
+    padding: 3vh 5vw;
 }
 
 .pText {
     font-size: 18px;
     display: absolute;
+    font-family: "Quantico", system-ui;
+    text-align: justify;
+}
+
+.pHeroText {
+    font-size: 18px;
+    font-family: "Saira Stencil", system-ui;
+    color: #2C0E09;
 }
 
 .h1Text {
+    color: #2C0E09;
     text-align: center;
     font-size: 48px;
+    font-family: "Black Ops One", system-ui;
 }
 
 .fortContainer {
-    max-width: 80vw;
-    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr 10fr 1fr);
+    gap: 10px;
+    align-items: center;
+}
+
+.content {
+    background-color: white;
+    padding: 1vh 3vw 3vh 3vw;
+    margin-bottom: 5vh;
+    border-radius: 0.5rem;
+}
+
+.sidebar {
+    height: 100%;
+    background-color:transparent;
 }
 
 .home-container {
@@ -79,13 +107,6 @@ footer{
     width: 100%;
     object-fit: contain;
     box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.2);
-}
-
-.line{
-    background-color:lightgray;
-    height:3vh;
-    width:2px;
-    display: inline-block;
 }
 
 .FortImage {
