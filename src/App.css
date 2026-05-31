@@ -1,3 +1,20 @@
+@keyframes glideIn {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.content {
+    animation: glideIn 0.4s ease-out;
+    z-index: 1;
+}
+
+
 body {
     background-image: url(./images/bricks.jpg);
     background-size: 100% auto;
