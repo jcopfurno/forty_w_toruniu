@@ -54,23 +54,14 @@ footer{
     font-family: "Black Ops One", system-ui;
 }
 
-.fortContainer {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr 10fr 1fr);
-    gap: 10px;
-    align-items: center;
-}
-
 .content {
     background-color: white;
     padding: 1vh 3vw 3vh 3vw;
     margin-bottom: 5vh;
     border-radius: 0.5rem;
-}
-
-.sidebar {
-    height: 100%;
-    background-color:transparent;
+    width: 76vw;
+    margin: 0 auto;
+    margin-bottom: 5vh;
 }
 
 .home-container {
@@ -117,6 +108,7 @@ footer{
     grid-template-columns: 1fr 1fr;
     gap: 16px;
     align-items: center;
+    margin-top: 3vh;
 }
 
 .Gallery img {
@@ -126,6 +118,6 @@ footer{
     box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.2);
 }
 
-.FortImage {
-    width: 40%;
+.mapSection {
+    margin-top: 2vh;
 }

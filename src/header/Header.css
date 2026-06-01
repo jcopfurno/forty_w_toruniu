@@ -26,10 +26,9 @@ header{
     display: flex;
     justify-content: space-between; 
     align-items: center;
-    height: 50px;
+    width: 76vw;
+    margin: 0 auto;
 
-    padding-top: 2vh;
-    padding-bottom: 2vh;
-    padding-left: 9vw;
-    padding-right: 9vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
 }

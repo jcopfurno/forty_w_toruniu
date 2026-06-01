@@ -1,0 +1,40 @@
+import { fortMap } from "@/components/fortMap"
+import fortImage1 from "../../images/Fort_XII_1.jpg"
+import fortImage2 from "../../images/Fort_XII_2.jpg"
+import fortImage3 from "../../images/Fort_XII_3.jpg"
+
+/*52.985431090113366, 18.593906443766183*/
+function Fort_XII () {
+    const Coordinates = {
+        latitude: 52.985431090113366,
+        longitude: 18.593906443766183
+    }
+    return (
+        <>
+        <div className="content">
+            <div className="heroSection">
+                <div className="heroImageContainer">
+                    <img src={fortImage1}></img>
+                </div>
+
+                <div className="heroTextContainer">
+                    <h1 className="h1Text"> Fort XII "Władysław Jagiełło" </h1>
+                    <p className="pHeroText"> Lata budowy: 1890-1893 </p>
+                </div>
+            </div>
+
+            <p className="pText"> Fort XII Władysław Jagiełło (dawniej Va Urlich von Jungingen) został wzniesiony w latach 1890-1893 na planie trapezu i pełnił rolę fortu pośredniego wzmacniającego południową linię obrony Twierdzy Toruń. Fort posiadał jedno (doświadczalne) stanowisko na armaty kalibru 10 cm i dwa tradytory. W 1920 roku opuszczające obiekt wojska niemieckie zabrały ze sobą instalacje: telefoniczną i telegraficzną oraz niektóre elementy wyposażenia. W 1942 roku więziono tu jeńców przewożonych potem do obozu na Glinkach. Obecnie Fort jest całkowicie opuszczony i zamieszkany przez bezdomnych.  </p>
+        
+            <div className="Gallery">
+                <img src={fortImage2}></img>
+                <img src={fortImage3}></img>
+            </div>
+            <div className="mapSection">
+                {fortMap(Coordinates)}
+            </div>
+        </div>
+        </>
+    )
+}
+
+export default Fort_XII
