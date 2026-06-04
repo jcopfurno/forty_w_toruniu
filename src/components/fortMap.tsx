@@ -6,7 +6,7 @@ type Coordinates = {
     latitude: number;
 };
 
-export function fortMap({ longitude, latitude}: Coordinates) {
+export function FortMap({ longitude, latitude}: Coordinates) {
 
     return (
         <div className="relative h-[420px] w-full">
