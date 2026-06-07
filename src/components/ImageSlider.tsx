@@ -28,7 +28,16 @@ export const ImageSlider = ({ images }: ImageSliderProps) => {
         <>
             <div className="slider">
                 <a className="leftArrowSlider" onClick={setPrev}> &#10094; </a>
-                <img src={images[slideIndex]}></img>
+
+                {images.map((image, index) => (
+                    <img 
+                        key={index}
+                        src={image} 
+                        alt={`Loading image`} 
+                        className={index === slideIndex ? "slide-active" : "slide"}
+                    />
+                ))}
+
                 <a className="rightArrowSlider" onClick={setNext}> &#10095; </a>\
 
                 <div className="dotsContainer">
