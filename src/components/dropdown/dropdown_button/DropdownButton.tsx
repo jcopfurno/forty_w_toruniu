@@ -11,7 +11,7 @@ type Props = {
 const DropdownButton = ({ children, open, toggle }: Props) => {
     return (
         <div onClick={toggle} className={'dropdown-button ' + (open ? 'button-open' : '')}>
-            {children} 
+            <p className="dropdown-text"> {children} </p>
             <span className="dropdown-icon"> 
                 {open ? <FaChevronUp /> : <FaChevronDown />}
             </span>

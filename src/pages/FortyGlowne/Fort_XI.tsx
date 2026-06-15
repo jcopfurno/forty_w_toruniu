@@ -2,7 +2,7 @@ import fortImage1 from "../../images/Fort_XI_1.jpg"
 import fortImage2 from "../../images/Fort_XI_2.jpg"
 import fortImage3 from "../../images/Fort_XI_3.jpg"
 import fortImage4 from "../../images/Fort_XI_4.jpg"
-import FortPage from "@/components/FortPage"
+import FortPage from "@/components/fort_page/FortPage"
 
 /*52.98611593969672, 18.574486208355957*/
 function Fort_XI () {

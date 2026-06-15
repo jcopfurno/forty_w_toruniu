@@ -1,6 +1,6 @@
 import React, {useState, useEffect, useRef} from 'react';
-import DropdownButton from './DropdownButton/DropdownButton';
-import DropdownContent from './DropdownContent/DropdownContent';
+import DropdownButton from './dropdown_button/DropdownButton';
+import DropdownContent from './dropdown_content/DropdownContent';
 import './Dropdown.css';
 
 type DropdownProps = {

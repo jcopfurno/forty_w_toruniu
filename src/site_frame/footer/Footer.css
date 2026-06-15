@@ -1,0 +1,11 @@
+footer{
+    margin-top: 5vh;
+    background-color:#2B1b15;
+    color: lightgray;
+    padding: 3vh 5vw;
+}
+
+footer h1 {
+    font-family: "Black Ops One", system-ui;
+    font-size: 24px;
+}

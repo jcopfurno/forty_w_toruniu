@@ -1,8 +1,12 @@
+import '@/components/fort_page/FortPage.css'
+
 function Kontakt() {
     return (
         <>
         <div className="content">
-            <h1 className="h1Text"> Kontakt </h1>
+            <div className="heroSection">
+                <h1 className="title"> Kontakt </h1>
+            </div>
         </div>
         </>
     )

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
-import FortyGlowneDropdown from "./dropdown/FortyGlowneDropdown.js";
-import FortyPosrednieDropdown from "./dropdown/FortyPosrednieDropdown.js";
-import ObiektyRdzenia from "./dropdown/ObiektyRdzeniaDropdown";
+import FortyGlowneDropdown from "@/components/dropdown/FortyGlowneDropdown.js";
+import FortyPosrednieDropdown from "@/components/dropdown/FortyPosrednieDropdown.js";
+import ObiektyRdzenia from "@/components/dropdown/ObiektyRdzeniaDropdown";
 import './Header.css'
 
 function Header() {

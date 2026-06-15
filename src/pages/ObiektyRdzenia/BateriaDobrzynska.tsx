@@ -1,4 +1,4 @@
-import FortPage from "@/components/FortPage"
+import FortPage from "@/components/fort_page/FortPage"
 import fortImage1 from "../../images/BateriaDobrzynska_1.jpg"
 import fortImage2 from "../../images/BateriaDobrzynska_2.jpg"
 import fortImage3 from "../../images/BateriaDobrzynska_3.jpg"

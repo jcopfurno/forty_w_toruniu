@@ -1,11 +1,13 @@
-import { FaCarSide } from "react-icons/fa"
+import '@/components/fort_page/FortPage.css'
 
 function Home() {
     return (
         <>
         <div className="content">
-            <h1 className="h1Text">Historia</h1>
-            <p className="pText">
+            <div className="heroSection">
+                <h1 className="title">Historia</h1>
+            </div>
+            <p>
                 Historia pruskiej Twierdzy Toruń zaczyna się w roku 1815, kiedy to na mocy postanowień Kongresu Wiedeńskiego miasto to staje się częścią Królestwa Prus. Zaraz po przejęciu miasta Prusacy przystąpili do prac fortyfikacyjnych. 
                 <br></br>
                 W latach 1815 – 1840 wzniesiono, bądź zmodernizowano większość fortyfikacji rdzenia (dookoła Starówki). Wybudowano min. 6 gródz mających za zadanie kontrolowanie poziomu wody w fosie miasta (1819-24), Koszary Racławickie – dzisiejszy Hotel Bulwar (1822), czy system bram miejskich – św. Jakuba, Bydgoska, Chełmińska (1823-1826). Na lewym brzegu Wisły powstał Przyczółek Mostowy (1824-1828), a w latach 1828-33 wybudowano pierwszy toruński fort, Fort Jakuba (Jacobsfort). Ponad to do warunków XIX-wiecznego oblężenia przystosowano Zamek Dybowski (1840), a w latach 1863-1866 w pobliżu dzisiejszego Rudaka powstał Fort Kolejowy. 

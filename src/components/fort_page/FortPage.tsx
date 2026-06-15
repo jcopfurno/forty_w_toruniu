@@ -1,5 +1,6 @@
-import { FortMap } from "@/components/FortMap"
-import { ImageSlider } from "@/components/ImageSlider"
+import { FortMap } from "@/components/map/FortMap"
+import { Gallery } from "@/components/gallery/Gallery"
+import "./FortPage.css" 
 
 function FortPage (
     title: string, 
@@ -12,12 +13,12 @@ function FortPage (
         <>
         <div className="content">
             <div className="heroSection">
-                <h1 className="h1Text"> {title} </h1>
-                <p className="pHeroText"> Lata budowy: {constructionYears} </p>
+                <h1 className="title"> {title} </h1>
+                <p className="heroDescription"> Lata budowy: {constructionYears} </p>
             </div>  
             <div className="mainSection">
                 <div className="Gallery">
-                    <ImageSlider images={images}/>
+                    <Gallery images={images}/>
                 </div>
                 <p> {description} </p>
             </div>

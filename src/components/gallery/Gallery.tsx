@@ -1,11 +1,11 @@
 import { useState } from "react"
-import './ImageSlider.css'
+import './Gallery.css'
 
-type ImageSliderProps = {
+type GalleryProps = {
     images: string[]
 }
 
-export const ImageSlider = ({ images }: ImageSliderProps) => {
+export const Gallery = ({ images }: GalleryProps) => {
     const [slideIndex, setSlideIndex] = useState(0)
 
     const setPrev = () => {

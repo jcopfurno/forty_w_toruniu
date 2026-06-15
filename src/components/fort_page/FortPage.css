@@ -1,0 +1,75 @@
+@keyframes glideIn {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.content {
+    background-color: white;
+    padding: 1vh 3vw 3vh 3vw;
+    border-radius: 0.5rem;
+    width: 76vw;
+    margin: 0 auto;
+
+    animation: glideIn 0.4s ease-out;
+    z-index: 1;
+}
+
+.heroSection {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    width: 100%;
+    justify-content: center;  /* vertical centering */
+    align-items: center;      /* horizontal centering */
+    text-align: center;
+}
+
+.title {
+    color: #2C0E09;
+    text-align: center;
+    font-size: 48px;
+    font-family: "Black Ops One", system-ui;
+}
+
+.heroDescription {
+    font-size: 18px;
+    font-family: "Saira Stencil", system-ui;
+    color: #2C0E09;
+    text-align: center;
+}
+
+.mainSection {
+    display: block;
+    margin-bottom: 5vh;
+    min-height: 40vh;
+}
+
+.Gallery {
+    float: right;
+    width: 50%;
+    height: 40vh;
+    margin-left: 20px; /* space between text and gallery */
+}
+
+.mapSection {
+    clear: both;
+    margin-bottom: 2vh;
+}
+
+@media (max-width: 768px) {
+    .mainSection {
+        display: block;
+    }
+
+    .Gallery {
+        float: none;
+        width: 100%;
+        height: 40vh;
+        margin: 20px 0; /* space above and below the gallery */
+    }
+}

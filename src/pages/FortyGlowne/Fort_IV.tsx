@@ -1,7 +1,7 @@
 import fortImage1 from "../../images/Fort_IV_1.jpg"
 import fortImage2 from "../../images/Fort_IV_2.jpg"
 import fortImage3 from "../../images/Fort_IV_3.jpg"
-import FortPage from "@/components/FortPage"
+import FortPage from "@/components/fort_page/FortPage"
 
 /*53.041142414243396, 18.63283162529341*/
 function Fort_IV () {

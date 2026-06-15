@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import Dropdown from "./Dropdown.js";
-import DropdownItem from "./DropdownItem/DropdownItem.js";
+import DropdownItem from "./dropdown_item/DropdownItem.js";
 
 const ObiektyRdzeniaDropDown = () => {
 
