@@ -16,12 +16,12 @@
     z-index: 0;
 }
 
-.slideInactive {
+.slide.inactive {
     opacity: 0;
     transition: opacity 0.4s ease-in-out;
 }
 
-.slideActive {
+.slide.active {
     opacity: 1;
     transition: opacity 0.4s ease-in-out;
 }
@@ -38,11 +38,11 @@
     user-select: none;
 }
 
-.leftArrowSlider {
+.arrowSlider.left {
     left: 10px;
 }
 
-.rightArrowSlider {
+.arrowSlider.right {
     right: 10px;
 }
 
@@ -57,11 +57,11 @@
     z-index: 1;
 }
 
-.dotActive {
+.dot.active {
     background-color: white;
 }
 
-.dotInactive {
+.dot.inactive {
     background-color: darkgray;
 }
 

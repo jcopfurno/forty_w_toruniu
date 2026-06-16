@@ -27,22 +27,24 @@ export const Gallery = ({ images }: GalleryProps) => {
     return (
         <>
             <div className="slider">
-                <a className="arrowSlider leftArrowSlider" onClick={setPrev}> &#10094; </a>
+                <a className="arrowSlider left" onClick={setPrev}> &#10094; </a>
 
                 {images.map((image, index) => (
                     <img 
                         key={index}
                         src={image} 
                         alt={`Loading image`} 
-                        className={index === slideIndex ? "slide slideActive" : "slide slideInactive"}
+                        className={`slide ${index === slideIndex ? "active" : "inactive"}`}
                     />
                 ))}
 
-                <a className="arrowSlider rightArrowSlider" onClick={setNext}> &#10095; </a>
+                <a className="arrowSlider right" onClick={setNext}> &#10095; </a>
 
                 <div className="dotsContainer">
                     {images.map((image, index) => (
-                        <div className={index === slideIndex ? "dot dotActive" : "dot dotInactive"} onClick={() => setSlideIndex(index)} key={index}>  </div>
+                        <div className={`dot ${index === slideIndex ? "active" : "inactive"}`} 
+                            onClick={() => setSlideIndex(index)} key={index}>  
+                        </div>
                     ))}
                 </div>
             </div>
