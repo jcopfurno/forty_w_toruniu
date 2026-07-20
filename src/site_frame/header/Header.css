@@ -23,12 +23,61 @@
 }
 
 header{
-    display: flex;
-    justify-content: space-between; 
-    align-items: center;
     width: 76vw;
     margin: 0 auto;
 
     margin-top: 2vh;
     margin-bottom: 2vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav-mobile {
+    display: none;
+    cursor: pointer;
+}
+
+@media (max-width: 69rem) {
+    .nav {
+        display: none;
+    }
+
+    .nav-mobile {
+        display: block;
+        position: absolute; 
+        right: 0;
+        top: 1.5rem;
+        padding: 0.5rem;
+        padding-right: 1.5rem;
+
+        border-radius: 0.5rem;
+
+        background-color: #CBD5E1;
+        z-index: 2;
+    }
+
+    .hamburger {
+        left: 0;
+        top: 0;
+        
+        width: 3rem;    
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        background: white;
+        cursor: pointer;
+
+        border-radius: 0.5rem;
+    }
+
+    .hamburger:hover {
+        background-color: rgb(240, 249, 255);
+    }
 }

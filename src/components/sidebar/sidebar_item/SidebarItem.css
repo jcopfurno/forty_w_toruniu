@@ -1,0 +1,11 @@
+.sidebar-item {
+    height: 2rem;
+    width: 100%;
+    background-color: transparent;
+    padding-left: 0.5rem;
+    user-select: none;
+}
+
+.sidebar-item:hover {
+    background-color: aliceblue;
+}

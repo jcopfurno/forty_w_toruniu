@@ -1,0 +1,7 @@
+.sidebar {
+    margin-top: 0.5rem;
+
+    width: 11rem;
+    
+    z-index: 2;
+}

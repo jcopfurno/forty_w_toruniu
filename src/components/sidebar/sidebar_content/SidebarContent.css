@@ -1,0 +1,9 @@
+.sidebar-content.content-close {
+    display: none;
+}
+
+.sidebar-content.content-open {
+    display: block;
+    background-color: white;
+    border-radius: 0.5rem;
+}

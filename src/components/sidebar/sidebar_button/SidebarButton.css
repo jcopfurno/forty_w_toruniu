@@ -1,0 +1,31 @@
+.sidebar-button {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+
+    height: 2rem;
+    padding-left: 0.3rem;
+    border-radius: 0.3rem;
+    margin-top: 0.7rem;
+
+    background-color: white;
+
+    user-select: none;
+}
+
+.sidebar-text {
+    font-family: "Saira Stencil", system-ui;
+    text-align: left;
+}
+
+.sidebar-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1rem;
+}
+
+.sidebar-button:hover {
+    background-color: rgb(240, 249, 255);
+}
